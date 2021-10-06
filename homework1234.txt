@@ -1,0 +1,73 @@
+1234
+
+第一题
+
+int a;
+byte b;
+short c;
+long d;
+float e;
+double f;
+char g;
+boolean h;
+String i;
+
+System.out.println(a);
+
+
+第三题
+
+1
+
+第四题
+
+1.5
+
+第六题
+
+6-1
+MyFirstClass
+
+6-2
+myFirstMethod
+
+6-3
+myFirstVariable
+
+6-4
+MYFIRSTCOSTANT
+
+第七题
+
+        float a = 2.0f;
+        double b = 2.0;
+        long c = 2;
+
+第八题
+
+        float x = 2.0f;
+        double y = 2.0;
+        long z = 2;
+        System.out.println((x+y)*z);
+
+第九题
+
+        int i = 0;
+        int j = 0;
+        int x = i++;
+        int y = --j;
+        System.out.println("i++后x的值为" +x+"i的值为"+i);
+        System.out.println("--j后y的值为" +y+"j的值为"+j);
+
+第十题
+
+10-1
+右边有2.0这样的浮点数，不能赋值给int类型数值
+
+10-2
+数据类型由窄变宽会自动转换
+数据类型由宽变窄需要显示转换
+
+10-3
+       double j = 1;//右边是int数值，赋值给double数值会自动转换
+       int i = (int) j;//右边是double数值，赋值给int数值需要显示转换
